@@ -2,7 +2,7 @@
 * ficheroRTF.txt 
 * ficheroRTF.xml
 * ficheroRTF.rtf
-* ficheroRTF.html
+* ficheroweb.html
 
 [Enlace rawgit](https://rawgit.com/AlexJV/LMSGI01/master/ficheroweb.html)
 
