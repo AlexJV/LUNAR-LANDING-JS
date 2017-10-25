@@ -6,7 +6,7 @@
 <head>Lenguaje de Marcas y Sistemas de Gestión de Información</head>
 <body>
   Trabajo de Lenguaje de marcas y sistemas de gestión de a información 
-  para la tarea 2 del dicho módulo
+  para la tarea 2 del dicho módulo</body>
   <h1>Las imágenes vendrán en breve</h1>
   <h2>pero antes el enlace</h1>
   <p>aquí van los párrafos.</p>
