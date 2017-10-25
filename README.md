@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>Lenguaje de Marcas y Sistemas de Gestión de la Información</head>
-  <title>LMSGI02</title>
-</head>
+<head>
+<title>LMSGI02</title>
+<head>Lenguaje de Marcas y Sistemas de Gestión de Información</head>
 <body>
   <h1>Mi primra cabecera1</h1>
   <h2>Segunda cabecera2</h1>
