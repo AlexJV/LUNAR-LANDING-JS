@@ -1,4 +1,4 @@
-TEMA 2 LMSG
+*_####TEMA 2 LMSG_*
 
 Introducción a HTML.
 
@@ -10,4 +10,4 @@ https://rawgit.com/AlexJV/LMSG02/master/index.html
 
 El enlace a Github es: 
 
-(https://github.com/AlexJV/LMSG02)
+https://github.com/AlexJV/LMSG02
