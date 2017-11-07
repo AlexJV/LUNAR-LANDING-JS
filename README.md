@@ -16,3 +16,6 @@
 
 # https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Frawgit.com%2FAlexJV%2FLMSG02%2Fmaster%2Findex.html
 
+### Peso de la web analizado en:
+
+# https://tools.pingdom.com/#!/eQdqf/https://rawgit.com/AlexJV/LMSG02/master/index.html
