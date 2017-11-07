@@ -11,3 +11,8 @@
 ### El enlace a Github es: 
 
 # https://github.com/AlexJV/LMSG02
+
+### Web validada con:
+
+# https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Frawgit.com%2FAlexJV%2FLMSG02%2Fmaster%2Findex.html
+
