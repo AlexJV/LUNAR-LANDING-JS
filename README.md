@@ -6,7 +6,7 @@ Creamos la web solicitada mediante código HTML.
 
 El enlace a la web es:
 
-(https://rawgit.com/AlexJV/LMSG02/master/index.html)
+https://rawgit.com/AlexJV/LMSG02/master/index.html
 
 El enlace a Github es: 
 
