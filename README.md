@@ -2,7 +2,7 @@
 
 ## Introducción a CSS.
 
-### Creamos la web solicitada mediante código HTML y CSS.
+### Clonamos la web del ejercicio anterior y editamos con CSS.
 
 ### El enlace a la web es:
 
