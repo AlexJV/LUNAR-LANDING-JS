@@ -1,96 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-  body{
-    background-color:#BEF781;
-    font-family:sans-serif;
-  }
-    
-
-  table, th, td {
-    border:2px solid black;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-  
-  a:link {
-      color:#FE2EF7;
-      background-color:#F8E0F7;
-      text-decoration: none;
-  }
-  a: visited {
-      color:#FE2EF7;
-      background-color:#F8E0F7;
-      text-decoration: none;
-  }
-  a:hover {
-      color:#FE2EF7;
-      background-color:#F8E0F7;
-      text-decoration: none;
-  }
-  a:active {
-      color:#FE2EF7
-      background-color:#F8E0F7;
-      text-decoration: none;
-  }
- 
-  </style>
-  
-  <meta name="description" content="Lenguaje de Marcas y Sistemas de Gestión de Información, ejercicio 2, iniciación en HTML"/>
-  <title>ASIR-LMSGI02</title>
+    <title>Lunar Lander</title>
+    <meta charset="UTF-8">
+    <meta name="desctiption" content>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 561px)" href="css/d.css">
+    <link rel="stylesheet" media="screen and (max-width: 560px)" href="css/m.css">
+    <link rel="icon" type="img/png" href="img/nave.png" />
+    <script src="js/js.js"></script>
 </head>
- <body> 
-       
-  <h1 style="background-color:#F3F781;">TEMA 2 HTML</h1>
-  <h2 style="background-color:#F4FA58;">FP SUPERIOR</h2>
-  <h3 style="background-color:#F7FE2E;">ASIR-LMSGI</h3>
-  <h4 style="background-color:#FFFF00;">Tarea 02</h4>
-  <h5 style="background-color:#D7DF01;">CSS</h5>
-  <h6 style="background-color:#A5DF00;">Colores</h6>
-  <p style="background-color:#BFFF00;">En este tema empezaremos a usar lo básico de HTML y de CSS, a partir de aqui
-         comenzaremos con esta estructura a ir añadiendo código para tener más opciones de edición.</p>
-  <p style="background-color:#C8FE2E;">Os animo a todos los compañeros y os deseo suerte!.</p>
-    
-     <img src="img/caib2.jpg"  alt="Formación Profesional en el CAIB"/>
-     <img src="img/html2.jpg"  alt="HTML paso a paso"/>
-     <img src="img/libro2.jpg" alt="Libro LMSGI"/>
-   
-  
- <table>
-  <tr>
-    <th>CURSO</th>
-    <th>MÓDULO</th>
-    <th>TEMA</th>
-  </tr>
-  
-  <tr>
-    <td>ASIR1º</td>
-    <td>LMSGI01</td>
-    <td>Tema01</td>
-  </tr>
-  <tr>
-    <td>ASIR1º</td>
-    <td>LMSGI02</td>
-    <td>Tema02-HTML</td>
-  </tr>
-  <tr>
-   <td>ASIR1º</td>
-   <td>LMSGI02</td>
-   <td>Tema02.1-CSS</td>
-   </tr>
- </table>
-  <ol>
-   <li>FP Distancia</li>
-     <li><a href="http://www.caib.es/sites/fp/ca/oferta_formativa_fp_a_distancia-80258/">CAIB</a></li>
-   <li>Html paso a paso</li>
-     <li><a href="http://es.html.net/tutorials/html/introduction.php">HTML</a></li>
-   <li>Libros de Informática</li>
-     <li><a href="http://www.abrirllave.com/lmsgi/libro.php">LMSGI</a></li>
-  </ol>
- 
-</body>
-   
-</html>
+<body>
+    <div id="tierra">
+        <img src="img/tierra.png" alt="tierra">
+    </div>
+
+    <div class="left">
+        <div class="controlpanel">
+            <div class="panel" id="contadorVelocidad">Velocidad:<br><b><span id="velocidad">100</span></b> m/s.</div>
+            <div class="panel" id="contadorGasolina">Fuel:<br><b><span id="fuel">100</span></b> %</div>
+            <div class="panel" id="contadorGasolina">Altura:<br><b><span id="altura">60</span></b> m.</div>
+        </div>
+    </div>
+    <div class="right">
+        <div id="ubicacionBotones">
+            <img class="boton" id="opciones" title="Opciones" src="img/menu.png" >
+            <img class="boton" id="reiniciar" title="Reiniciar" src="img/restart.png" style="display: none">
+            <img class="boton" id="play" src="img/play.png" title="Play" style="display: none;">
+            <img class="boton" id="pause" title="Pause" src="img/pause.png" >
+            <div id="botones2"> 
+                <div class="boton" title="Instrucciones" id="info"  style="display: none">Información</div>
+                <div class="boton" id="acercade" title="Acerca de:" style="display: none" >Acerca de...</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="naveDiv">
+        
+        <img class="nave" id="naveApagada" src="img/nave.png" >
+        <img class="nave" id="navEncendida" src="img/nave_fuego.png" style="display: none;">
+
+        <img class="nave" id="navExplosion" src="img/explosion1.gif" style="display: none;">
+    </div>
+    <div id="bottom">
+        <img id="luna" src="img/moon.png">           
+    </div>
+    <div id="creditos" style="display: none;">
+        <h2>SOBRE EL JUEGO</h1>
+        <b> Creado por</b> Adrián Rojas.<br>
+        <h4>DESARROLLO</h4>
+        El juego ha sido desarrollado utilizando código javascript, html y css para la asignatura "Lenguaje de Marcas del FP Dual"
+
+            <div id="creditosVolver"><img src="img/volver.png">  </div>
+    </div>
+    <div id="instrucciones" style="display: none">
+        <h2> Instrucciones</h2>
+        <p>Este juego consiste en intentar aterrizar la nave poco a poco sin ir a mucha velocidad.</p>
+        <h2> Controles </h2>
+        <ul>
+            <li>Pulsa la barra de estacio para arrancar la nave.</li>
+        <div id="instruccionesVolver"><img src="img/volver.png"> </div>  
+    </div>
+    <div id="parar" style="display: none"></div>
+    <div id="ganar" style="display: none">
+        <h1>¡Enhorabuena!</h1>
+        Has conseguido llegar a la luna sano y salvo.<br><br>
+        <button onclick="location.reload();"> <h3> Jugar otra vez </h3></button><br>
+    </div>
+    <div id="perder" style="display: none">
+        <h1>¡Has perdido!</h1>
+        Vas demasiado rápido, intentalo de nuevo!!!<br><br>
+        <button onclick="location.reload();"> <h3> Probar de nuevo </h3></button><br>
+    </div>
+    </div>
+</body> 
+</html> 
