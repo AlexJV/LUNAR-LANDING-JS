@@ -20,17 +20,17 @@ body {
     background-attachment: fixed;
 
    
-   <div id="PlanetaTierra">
- <img src="Planeta_Tierra.png" width="268" hspace="16" height="268" vspace="16" />
-   
-</div>
+
 }
 
     
 </style>
 </head>
 <body>
-
+   <div id="PlanetaTierra">
+ <img src="Planeta_Tierra.png" width="268" hspace="16" height="268" vspace="16" />
+   
+</div>
 <h1>Hello World!</h1>
 
 <p>This page has an image as the background!</p>
