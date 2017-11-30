@@ -9,20 +9,18 @@ body {
 .a {
   background-color:blue;
 }
-.b {
-  background-color:red;
-}
-.c {
+
+.B {
   background-color:green;
 }
-.a,.b,.c {
+.a,.b, {
   display:inline-block;
   width:33.33%;
   height:100%;
   float:left;
 }
 .d {
-  background-color:pink;
+  background-image: url("luna.png");
   height:10%;
   width:100%;
   position:fixed;
