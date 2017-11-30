@@ -6,8 +6,12 @@
 body {
     background-image: url("fondoespacio.png");
     background-repeat: no-repeat;
-    background-position: right top;
     background-attachment: fixed;
+}
+div {
+    height: 100%;
+    width: 100%;
+    background-image: url("fondoespacio.png");
 }
 </style>
 </head>
