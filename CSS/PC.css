@@ -10,7 +10,7 @@ body {
   background-color:blue;
 }
 
-.B {
+.b {
   background-color:green;
 }
 .a,.b, {
@@ -19,21 +19,21 @@ body {
   height:100%;
   float:left;
 }
-.d {
+.c {
   background-image: url("luna.png");
   height:10%;
   width:100%;
   position:fixed;
   bottom:0px;
 }
-#nave {
+#Cohete {
   text-align:center;
   position:fixed;
   top:5%;
   width:100%;
   height:20%;
 }
-#nave img {
+#Cohete img {
   height:100%;
 }
 #cpanel {
