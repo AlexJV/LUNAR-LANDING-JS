@@ -9,33 +9,56 @@
 
 <body>
      
-    <DIV STYLE="position:absolute; top:1000px; left:1000px; visibility:visible z-index:1">
-<IMG height="73" SRC="img/fondoespacio.png" width="800">
-</div> 
-     
- <div id="Cohete">
-   <img src="img/Cohete.png" alt="img Cohete">
-</div>
+<div id="nave">
+        <img id="naveimg" src="img/Cohete.png" alt="img nave">
+        <img id="fuegoimg" src="img/Cohetefuego.gif" alt="propulsor">
+    </div>
+    <div class="a">
+
+        <ul id="cpanel">
+            <li id="controles"><a>ALTITUD: <span id="altura">100</span> mts</a>
+            </li>
+            <li id="controles"><a>FUEL: <span id="fuel">100</span> lts</a>
+            </li>
+            <li id="controles"><a>VELOCIDAD: <span id="velocidad">0</span> m/s</a>
+            </li>
+        </ul>
+        <div id="showm">Mostrar menu</div>
+        <button id="botonOn"></button>
+    </div>
    
- <div id="luna">
-    <img src="img/luna.png" alt="img luna">
+    <div class="c">
+
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a>
+            </li>
+            <li><a target="_blank" href="creditos.html">Créditos</a>
+            </li>
+            <li><a target="_blank" href="instrucciones.html">Instrucciones</a>
+            </li>
+        </ul>
+        <br>
+        <div id="hidem">Ocultar menu</div>
+        <a href="#" onclick="reanudar();">
+            <div id="reanudar"></div>
+        </a>
+        <a href="#" onclick="pausar();">
+            <div id="pausa"></div>
+        </a>
+        <a href="#" onclick="reiniciarJuego();">
+            <div id="reinicia"></div>
+        </a>
 </div>
-     
-<div id="Planeta_Tierra">
-     <img src="img/Planeta_Tierra.png" alt="img Planeta_Tierra">
-</div>
-     
-<div id="Cohetefuego">
-     <img src="img/Cohetefuego.png" alt="img Cohetefuego">
-</div>
-     
+        
 <div class="a">
-<ul id="cpanel">
-<li>Velocidad <span id="velocidad">100</span> m/s</li>
-<li>Fuel <span id="fuel">500</span> l</li>
-<li>Altura <span id="altura">60</span> m</li>
+  <ul id="cpanel">
+     <li>Velocidad <span id="velocidad">100</span> m/s</li>
+     <li>Fuel <span id="fuel">500</span> l</li>
+     <li>Altura <span id="altura">60</span> m</li>
 </ul>
-</div><div class="b">b</div><div class="c">
+     
+</div><div class="b">b</div
+     ><div class="c">
 <ul id="menu">
 <li>Jugar</li>
 <li>Instrucciones</li>
