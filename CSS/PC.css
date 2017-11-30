@@ -2,16 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-#PlanetaTierra {
- position: relative;
-}
-.sobre {
- position:absolute;
- top:0px;
- left:0px;
- border:none;
-}
+<style>
+<div style="position: relative;">
+  <div style="position: absolute;"> HOLA </div>
+</div>
 body {
     background-image: url("fondoespacio.png");
     height: 100%;
@@ -27,13 +21,7 @@ body {
 </style>
 </head>
 <body>
-   <div id="PlanetaTierra">
- <img src="Planeta_Tierra.png" width="268" hspace="16" height="268" vspace="16" />
-   
-</div>
-<h1>Hello World!</h1>
 
-<p>This page has an image as the background!</p>
 
 </body>
 </html>
