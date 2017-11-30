@@ -5,6 +5,9 @@
 <style>
 body {
     background-image: url("fondoespacio.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 </style>
 </head>
