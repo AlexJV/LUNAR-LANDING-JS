@@ -1,8 +1,8 @@
-# TEMA 2.2 LMSG
+# TEMA 2.3 LMSG
 
-## Proyecto Lunar Landing.
+## Proyecto Lunar Landing con JS
 
-### Clonamos la web del ejercicio anterior y editamos con HTML y CSS.
+### Clonamos la web del ejercicio anterior y editamos con HTML, CSS y con JavScript
 
 ### El enlace a la web es:
 
